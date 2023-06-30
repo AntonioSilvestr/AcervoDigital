@@ -22,13 +22,13 @@ router.post('/', async (req, res) => {
   try {
     const user = await login(email, hashedPassword);
     if (user) {
-      res.redirect('/');
+      res.redirect('/home');
     } else {
       res.sendStatus(404);
     }
   } catch (err) {
     console.error(err);
-    res.render('index');
+    res.sendStatus(404);
   }
 });
 
