@@ -1,0 +1,104 @@
+body{
+    background-color:rgb(243, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    background-color: rgb(0, 190, 152);
+
+}
+ul{
+    display: flex;
+    gap: 3vw;
+    width: 100vw;
+    justify-content: right;
+    align-items: center;
+    margin: 5vw;
+}
+li{
+    font-size: 1.8vw;
+}
+.cabecalho-lista-item-link{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    width: 8vw;
+    height: 8vw;
+    margin: 3vw;
+}
+
+.objetivo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.objetivo-texto{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    gap: 0.5vw;
+}
+
+.objetivo-texto-titulo{
+    font-size: 2.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.livros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.livro{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2vw;
+    width: 21vh;
+    height: 21vh;
+    padding: 3vw;
+    border-radius: 2vw;
+}
+
+.livro-imagem{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 1vw;
+}
+
+footer{
+    
+    background-color: rgb(0, 190, 152);
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.midias-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin: 2vw;
+}
+
+.midias-sociais-item{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    align-items: center;
+}
+
+.midias-sociais-item-link{
+    text-decoration: none;
+    color: black;
+}
+
+.midias-sociais-item-img{
+    width: 4vh;
+    height: 4vh;
+}
