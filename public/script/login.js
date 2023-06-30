@@ -2,7 +2,7 @@ function transformarEmJson(){
     const email = document.getElementById("email").value
     const senha = document.getElementById("senha").value
 
-    dados = {
+    return dados = {
         email: email,
         senha: senha
     }
